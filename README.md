@@ -81,7 +81,7 @@ To access the platform, use the following hardcoded administrative credentials:
 
 **Lokesh✌️**
 * Web Dev & ...
-* [Link to your LinkedIn or Portfolio]
+* (https://www.linkedin.com/posts/lokesh-kumar-chaudhary-6a7b94315_web-development-frontend-activity-7404900781037912064-D32C?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFAWS98BdEAgmRPNrT4MzIimaE_ZTRyYdWg)
 
 ---
 
