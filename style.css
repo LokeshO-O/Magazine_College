@@ -1,0 +1,192 @@
+/* ============
+   style.css 
+   ============*/
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+p { margin: 0; }
+a { text-decoration: none; color: white; }
+
+/*(for Magazines/News pages) */
+h1.section-title {
+    color: #333;
+    font-size: 28px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/*(for Home page) */
+h1.home-title {
+    color: #333;
+    font-size: 36px;
+    margin: 0 0 15px 0;
+    border: none;
+}
+
+h2 {
+    color: #dc2626;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.text-grey { color: #555; font-size: 14px; margin-left: 0; }
+.text-desc { font-size: 12px; color: #666; line-height: 1.4; }
+
+
+/*  Layout & Nav */
+.nav-bar {
+    background-color: #1a2233;
+    color: white;
+    padding: 10px 0;
+    height: 30px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    margin-left: 30px;
+}
+
+/* Red Logo Tag */
+.logo-tag {
+    border-bottom-left-radius: 30px;
+    background-color: #dc2626;
+    width: 150px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    text-align: center;
+    margin-top: -6%;
+    margin-bottom: -10px;
+    z-index: 10;
+    position: relative;
+}
+
+/*  Content Sections */
+.main-content {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* (Home Page) */
+.home-wrapper {
+    background-color: transparent; /* This makes it transparent instead of white */
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc; /* You can also remove this line if you don't want the border */
+}
+.home-flex {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid #ccc; /* This adds a thin, light-grey border */
+    padding: 20px;/* Padding create space between content and tab*/
+}
+
+.home-btn {
+    background-color: #dc2626;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Card Grid System */
+.card {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+/* Column Widths */
+.col-30 { width: 30%; margin-right: 3%; }
+.col-23 { width: 28%; margin-right: 3%; }
+.col-42 { width: 42%; margin-right: 5%; }
+
+.card-num {
+    background-color: #dc2626;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.card-img { text-align: center; margin-bottom: 10px; }
+.card-img img {
+    width: 100%;           /* Fills the container width */
+    height: 260px;         /* Forces a fixed height for all images */
+    object-fit: cover;     /* Crops the image to fit without distorting it */
+    border: 1px solid #ccc;
+    display: block;        /* Removes small gap below inline images */
+}
+
+.card-btn {
+    background-color: #dc2626;
+    color: white;
+    padding: 8px 0;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+}
+
+/* FeeedbackForms */
+.form-box {
+    background-color: white;
+    padding: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+input, textarea {
+    width: 100%; padding: 12px; margin-bottom: 20px;
+    border: 1px solid #ccc; box-sizing: border-box; border-radius: 4px;
+}
+button.submit-btn {
+    background-color: #dc2626; color: white; padding: 14px 20px;
+    border: none; cursor: pointer; width: 100%; font-size: 16px; font-weight: bold;
+}
+button.submit-btn:hover { background-color: #b91c1c; }
+
+/* FOOTER*/
+.footer {
+    background-color: #dc2626; /* Theme Red */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px; /* Space above the footer */
+    width: 100%;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 0;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kiet Magazine - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Specific styles for login centering */
+        body.login-page {
+            background-color: #1a2233; /* Dark background for login */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-box {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .error-msg {
+            color: #dc2626;
+            font-size: 14px;
+            margin-top: 10px;
+            display: none; /* Hidden by default */
+        }
+    </style>
+</head>
+<body class="login-page">
+
+    <div class="login-box">
+        <h2 style="color: #333; margin-bottom: 20px;">KIET MAGAZINE</h2>
+        <p style="color: #666; margin-bottom: 30px;">Please login to continue</p>
+
+        <form id="loginForm">
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="password" id="password" placeholder="Password" required>
+            
+            <button type="submit" class="submit-btn">LOGIN</button>
+            <p id="errorMsg" class="error-msg">Invalid Email or Password</p>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+   
+</html>
+
+</body>
+</html>
